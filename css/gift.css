@@ -1,0 +1,234 @@
+.container-fluid{
+    background: linear-gradient(to left,pink,white);
+}
+    #offer{
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+    font-family: 'Times New Roman';
+}
+#homeitem img{
+    margin-left:50px;
+    width:100px;
+    height:100px;
+    border-radius: 100px;
+}
+#search .f1 li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Times New Roman';
+}
+#search .f1 li a{
+    color: black;
+    text-decoration-line: none;
+}
+#search button{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    border: none;
+    background-color: pink;
+    width:150px;
+    height:40px;
+    border-radius: 20px;
+}
+#search button a{
+    color:black;
+    text-decoration-line: none;
+}
+
+#homeitem{
+    display: flex;
+    justify-content: space-evenly;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.f1{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top:30px;
+}
+.part1{
+    border:1px solid white;
+    width:300px;
+    height:400px;
+    margin-left: 100px;
+    border-radius: 30px;
+    background-color: white;
+}
+#gift h1{
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.i1 img{
+    width:200px;
+    height:200px;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.i1 img:hover{
+    transform: scale(0.9,0.9);
+}
+
+.part1 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+.part1 button{
+    margin-left: 100px;
+    width:100px;
+    background-color: pink;
+    border: none;
+    outline:none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Times New Roman';
+
+}
+.part2{
+    border:1px solid white;
+    width:300px;
+    height:400px;
+    margin-left: 100px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: white;
+}
+.part2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+.part2 button{
+    margin-left: 100px;
+    width:100px;
+    background-color: pink;
+    border: none;
+    outline:none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Times New Roman';
+
+}
+.I{
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer p{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    background-color: black;
+    color:white;
+   text-align: center;
+    
+    
+}
+#footer span{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: pink;
+}
+
+/* @media only screen and (max-width:1024px){
+    body{
+        margin:0;
+    }
+    .container-fluid{
+        width:1024px;
+    }
+    .f1{
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top:30px;
+    }
+    .part1{
+        margin-left: 10px;
+    }
+    .part2{
+        margin-left: 10px;
+    }
+} */
+
+
+@media only screen and (max-width:425px){
+    body{
+        margin:0;
+    }
+    .container-fluid{
+        width:425px;
+    }
+    #search button{
+        
+        
+        width:100px;
+        height:30px;
+    }
+    #homeitem img{
+        margin-left:10px;
+        width:50px;
+        height:100px;
+    }
+    #search{
+        display: flex;
+   
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .f1{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top:10px;
+    }
+    .part1{
+        margin-left:40px;
+        margin-top:10px;
+    }
+    .part2{
+        margin-left:40px;
+        margin-top:10px;
+    }
+}
+@media (min-width:426px) and (max-width:768px){
+    .body{
+        margin:0;
+    }
+    .container-fluid{
+        width:768px;
+    }
+    #homeitem img{
+        margin-left:70px;
+    }
+    .f1{
+        margin-left:30px;
+        margin-top:10px;
+        margin-right:30px;
+
+    }
+    #search {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left:10px;
+    }
+    .part1{
+        margin-left:30px;
+        margin-top:10px;
+    }
+    .part2{
+        margin-left:30px;
+        margin-top:10px;
+    }
+}
